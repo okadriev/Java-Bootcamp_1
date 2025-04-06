@@ -2,6 +2,7 @@ package exercise07;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.NoSuchElementException;
 
 public class Arifmetic {
   private int count;
@@ -32,7 +33,7 @@ public class Arifmetic {
 
     } catch (Exception e) {
       throw e;
-    }
+    } 
   }
 
   public void calcArifmetic() {
